@@ -24,21 +24,3 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 <div class="container-fluid core-content-div">
-<div class="homepage-big-header">
-  <div class="row">
-    <div class="top-bar">
-      <ul class="top-bar-menu">
-        <li>info@bierfest.ch</li>
-        <li>+41 123 456</li>
-      </ul>
-    </div><!-- /top-bar -->
-  </div><!-- /row -->
-  <div class="row">
-    <div class="main-menu">
-      <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
-    </div><!-- /main-menu -->
-  </div><!-- /row -->
-  <div class="row">
-
-  </div><!-- /row -->
-</div><!-- /homepage-big-header -->
