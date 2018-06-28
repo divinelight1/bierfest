@@ -14,3 +14,7 @@ add_action( 'init', 'register_my_menus' );
 
 // add custom logo support
 add_theme_support( 'custom-logo' );
+
+
+// include theme options file
+include('theme-options.php');

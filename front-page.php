@@ -3,8 +3,8 @@
   <div class="row">
     <div class="top-bar">
       <ul class="top-bar-menu">
-        <li>info@bierfest.ch</li>
-        <li>+41 123 456</li>
+        <li><?php echo get_option('emailtopbar'); ?></li>
+        <li><?php echo get_option('telephonetopbar'); ?></li>
       </ul>
     </div><!-- /top-bar -->
   </div><!-- /row -->
